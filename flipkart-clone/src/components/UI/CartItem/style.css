@@ -1,0 +1,54 @@
+.CartItemContainer{
+    padding:10px 20px;
+    margin-top: 20px;
+}
+.CartItemContainer .ItemDetailsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.CartItemContainer .ItemDetailsContainer .cartItemDetails{
+    display: flex;
+    width:70%;
+}
+.ItemDetailsContainer .cartItemDetails img{
+    width: 15%;
+    height: 100%;
+    margin-right: 20px;
+}
+.ItemDetailsContainer .cartItemDetails .productInfo >div{
+      font-size: 16px;
+     
+}
+.CartItemContainer .QtiteContainer{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -12px;
+}
+.CartItemContainer .QtiteContainer >input{
+    text-align: center;
+    border-radius: 4px;
+    width: 40px;
+    height: 30px;
+    outline: none;
+    border: solid 1px rgb(151, 151, 151);
+    font-size: 16px;
+    margin-left: 5px;
+}
+.CartItemContainer .QtiteContainer >div{
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 0 4px;
+    text-align: center;
+    border: solid 1px rgb(151, 151, 151);
+    margin-left: 5px;
+    width: 20px;
+}
+.CartItemContainer .QtiteContainer >button{
+    background-color: transparent;
+    font-size: 30x;
+    text-shadow: 1px 1px 0px #9f9a9a;
+    border: none;
+    font-weight: bold;
+    margin-left: 40px;
+}
+

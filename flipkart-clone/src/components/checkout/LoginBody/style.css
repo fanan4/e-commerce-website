@@ -1,0 +1,57 @@
+.loginBody{
+    padding: 10px 50px;
+    background-color: white;
+    margin-top: -12px;
+    width: 85.3%;
+    margin-left: 10px;
+}
+.loginBody .label,.labelFocus{
+   color: rgb(164, 164, 164);
+   font-size: 14px;
+}
+.loginBody .label{
+   position: relative;
+   top:14px;
+   margin-top: 15px;
+}
+
+.loginBody >input{
+    outline: none;
+    border: none;
+    border-bottom: solid 1.5px rgb(85, 102, 254);
+    width: 47%;
+    font-size: 20px;
+}
+.loginBody .paraLicense{
+    margin-top: 10px;
+    font-size: 14px;
+    width: 45%;
+}
+.loginBody .paraLicense >span{
+    color: blue;
+}
+.loginBody .Btn{
+    color: white;
+    background-color: orangered;
+    border: none;
+    width: 50%;
+    padding: 15px 0;
+    margin:20px 0;
+    cursor: pointer;
+}
+.loginBody .LoginBtn{
+    display: block;
+}
+.loginBody .disappear{ 
+   display: none;
+}
+.loginBody .LoginBtn >input{
+    outline: none;
+    border: none;
+    border-bottom: solid 1.5px rgb(85, 102, 254);
+    width: 47%;
+    font-size: 20px;
+}
+
+
+

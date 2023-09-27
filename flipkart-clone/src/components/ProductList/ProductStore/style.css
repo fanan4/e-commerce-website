@@ -1,0 +1,12 @@
+.CarouselImage{
+    height: 400px;
+    margin: 20px;
+}
+.CarouselImage a{
+    cursor: pointer;
+}
+
+.CarouselImage img{
+    height: 100%;
+    width: 40%;
+}

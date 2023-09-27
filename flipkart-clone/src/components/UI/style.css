@@ -1,0 +1,11 @@
+.PorductsLISTE{
+    background-color: white;
+    margin: 10px; 
+    box-shadow: inset 2px 2px 1px  #ababab;
+}
+.ProductHeader{
+    display: flex;
+    border-bottom: solid 1px #ababab;
+    padding:"10px"
+    /* justify-content: space-between;  */
+}

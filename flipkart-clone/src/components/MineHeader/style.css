@@ -1,0 +1,194 @@
+.header-flipkart {
+    height: 45px;
+    background-color:rgb(22, 119, 199);
+    padding-left:  100px;
+    padding-top: 10px;
+    display: flex;
+}
+.header-flipkart .logo{
+    width: 120px;
+    height: 200px;
+    margin-right: 10px;
+}
+.header-flipkart .logo img{
+    width: 100%;
+    height: 20%;
+}
+.header-flipkart .search{
+    background-color: white;
+    width: 33%;
+    height: 38px;
+    border-radius: 2px;
+    display: flex;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px #797979;
+    margin-right: 10px;
+}
+
+.header-flipkart .search input{
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    width: 80%;
+    height: 30%;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.header-flipkart .search .icons{
+    color: rgb(22, 119, 199);
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.header-flipkart .LoginPart{
+    width: 10%;
+}
+.header-flipkart .LoginPart .Login{
+     background-color:white;
+     width: 80px;
+     height: 60%;
+     color: rgb(22, 119, 199);
+     font-size: 17px;
+     padding-left: 30px;
+     font-weight: bold;
+     padding-top: 6px;
+     margin-top: 2px;
+     box-shadow: 1px 1px 1px 1px #797979;
+     cursor: pointer;
+}
+
+.header-flipkart .LoginPart:hover .renderMenu{
+    display: block;
+}
+.header-flipkart .LoginPart:hover .dropDown{
+    display: block;
+}
+
+.header-flipkart .LoginPart .dropDown{
+    display:none;
+    color: white;
+    font-size: 40px;
+    margin-top: -17px;
+    margin-left: 25px;
+}
+.header-flipkart .LoginPart .renderMenu{
+    display: none;
+    background-color: white;
+    width: 200%;
+    font-size: 15px;
+    color: black;
+    border: solid 1px rgb(225, 225, 225);
+    border-top: 0;
+    margin-left:-50px;
+    margin-top: -25px;
+}
+
+.header-flipkart .LoginPart .renderMenu >div{
+    padding: 12px 0px 12px 10px;
+    display: flex;
+    border-bottom: solid 1px rgb(227, 227, 244);
+}
+.header-flipkart .LoginPart .renderMenu > div  div{
+      margin-left: 20px;
+}
+.header-flipkart .LoginPart .renderMenu > div svg{
+    color: blue;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.header-flipkart .LoginPart .renderMenu > div p{
+    margin:0 52px 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.header-flipkart .LoginPart .renderMenu > div a{
+    color: rgb(104, 104, 250);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.header-flipkart .LoginPart .renderMenu >div:hover{
+    background-color: rgb(227, 227, 244);
+}
+.header-flipkart .seller{
+  width: 12%;
+  padding: 7px 8px;
+  color: white;
+  margin-left: 20px;
+  height: 70%;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.header-flipkart .More {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header-flipkart .More .MoreTitle{
+    width: 12%;
+    padding: 9px 0 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+}
+.header-flipkart  .More .MoreTitle:hover .dropUpIcon{
+    display: block;
+}
+.header-flipkart  .More .MoreTitle:hover .dropDownIcon{
+    display: none;
+}
+.header-flipkart .MoreTitle .dropUpIcon{
+    display: none;
+}
+.header-flipkart .More .MoreTitle svg{
+      margin:6px 0 0px 2px;
+}
+.header-flipkart .More .MorDropDown{
+      display: none;
+      position: relative;
+      background-color: white;
+      width: 150%;
+      margin-left: -35px;
+      z-index: 5;
+      margin-top: -26px;
+      border: solid 1px rgb(225, 225, 225);
+}   
+.header-flipkart .More .MorDropDown >div{
+    display: flex;
+    padding:10px 0 10px 20px;
+    border-bottom: 1px solid rgb(227, 227, 244);
+}
+.header-flipkart .More .MorDropDown >div:hover{
+     background-color: rgb(236, 236, 242);;
+}
+.header-flipkart .More .MorDropDown >div >svg{
+    margin:4px 20px 0 0;
+    color: rgb(22, 119, 199);
+    font-size: 20px;
+}
+.header-flipkart .More:hover .MorDropDown{
+      display: block;
+}
+.header-flipkart .More:hover .dropDown{
+    display: block;
+}
+.header-flipkart .More .dropDown{
+    display: none;
+    color: white;
+    font-size: 40px;
+    margin-top: -17px;
+    color: rgb(111, 110, 110);
+}
+.header-flipkart .DarkView{
+    background-color:rgba(111, 110, 110,0.5);
+    width: 100%;
+    height: 100%;
+}
+   
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.PathContainer{
+    margin: 20px;
+}
+.PathContainer >ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.PathContainer >ul >li{
+    list-style: none;
+
+}
+.PathContainer >ul >li >a{
+    color: rgb(155, 149, 149);
+    margin-right: 10px;
+}
+

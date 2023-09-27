@@ -1,0 +1,98 @@
+.productDetails{
+  padding: 10px 20px;
+  background-color: white;
+  display: flex;
+}
+.productDetails .ProductImageDescription{
+    width: 40%;
+    height: 500px;
+    border: solid 1px rgb(162, 162, 162);
+    display: flex;
+}
+.productDetails .ProductImageDescription .verticalListProcutImges {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    overflow-x: auto;
+    margin-right: 30px;
+}
+.ProductImageDescription .verticalListProcutImges .ImageContainer{
+     border: solid 1px rgb(162, 162, 162);
+     border-left: none;
+     max-width: 100%;
+     max-height: 100%;
+}
+.ProductImageDescription .verticalListProcutImges .ImageContainer:hover{
+     border: solid 2px rgb(126, 126, 255);
+}
+.ProductImageDescription .verticalListProcutImges .ImageContainer img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.ProductImageDescription .MainImage{
+    max-width: 70%;
+    height: 300px;
+    padding: 20px 30px;
+}
+.ProductImageDescription .MainImage img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+.ProductDescription .breed{
+    margin-top: -13px;
+    margin-left: -15px;
+}
+.ProductDescription .breed  > ul >li a:hover{
+    color: rgb(83, 83, 246);
+}
+.ProductDescription .breed > ul >li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+.ProductDescription .breed > ul >li svg{
+   position: relative;
+   top: 3px;
+   margin-left: 4px;
+   color: rgb(103, 103, 103);
+}
+.ProductDescription .breed > ul >li a{
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+    font-size: 14px;
+}
+.ProductDescription .ProductData{
+    padding-left: 40px;
+}
+.ProductDescription .ProductTitle{
+    font-size: 20px;
+    font-weight: 400;
+}
+.ProductDescription .poductSmallDetails{
+    margin-top: 10px;
+}
+.ProductDescription .poductSmallDetails .ratingCount{
+    background-color: rgb(5, 154, 5);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+ .ProductDescription .poductSmallDetails .ratingNumbersReviews{
+    color: rgb(149, 147, 147);
+    font-size: 16px;
+    font-weight: 500;
+ }
+.ProductDescription .poductSmallDetails .ratingCount>svg{
+    position: relative;
+    top:2px;
+}
+.ProductDescription .poductSmallDetails .price{
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+

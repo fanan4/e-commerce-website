@@ -1,0 +1,21 @@
+.Order{
+   
+    border: solid 1px rgb(161, 161, 161);
+    width: 60%;
+    background-color: white;
+    margin: 2%;
+}
+.Order .OrderHeader{
+   border-bottom: solid 1px rgb(161, 161, 161);
+   padding: 10px;
+   
+}
+.Order .orderContainer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Order .orderContainer > img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,18 @@
+.tabPricecont{
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow:0px 0px 2px 1px rgb(168, 166, 166);
+}
+.tabPricecont >div{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.tableHeader{
+    border-bottom: solid 1px rgb(159, 156, 156);
+    margin-bottom: 15px;
+    width: 114%;
+    margin-left: -20px;
+}
