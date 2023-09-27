@@ -1,0 +1,30 @@
+.AllOrders{
+    display: flex;
+    margin-left: 30px;
+}
+.statusConstainer{
+      width: 20%;
+      padding: 10px;
+      position: relative;
+      margin: 0;
+}
+.point{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(152, 149, 149);
+    border-radius: 50%;
+}
+.state{
+    width:105%;
+    height: 8px;
+    background-color: rgb(152, 149, 149);
+    position: absolute;
+    left: 20px;
+    top:36%;
+}
+.orderType,.orderDate{
+   position: absolute;
+}
+.orderType{
+    top: -30px;
+}

@@ -1,0 +1,17 @@
+.key{
+  font-size: 13px;
+  font-size: 'sans serif';
+ 
+}
+.value{
+    font-size: 15px;
+    font-size: 'sans serif';
+}
+.productPictur{
+  width: 80px;
+  height: 100px;
+}
+.productPictur img{
+  width: 100%;
+  height: 100%;
+}
